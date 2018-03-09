@@ -1,0 +1,8 @@
+image: ruby:alpine
+
+rspec:
+  script:
+    - gem install rspec
+    - rspec
+
+
